@@ -1,7 +1,8 @@
 {
-    "plan": "7F0000",
-    "boite": "007F00",
-    "pyramide": "7F7F00",
-    "cylindre": "00007F",
-    "boules": "5FDF3F"
+    "plan": "00cd3d",
+    "boite": "ff52f3",
+    "pyramide": "fff5e8",
+    "cylindre": "00e6b8",
+    "boule1": "ffb6b8",
+    "boule2": "ffdaef"
 }

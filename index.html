@@ -7,13 +7,24 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="image-container">
-            <canvas id="canvas" style="display: none;"></canvas>
-            <img src="scene1_id.png" id="calque">
-            <img src="scene1.png" id="background-normal">
+        <div class="container-global">
+            <div class="image-container">
+                <canvas id="canvas"></canvas>
+                <img src="scene2_id.png" id="calque">
+                <img src="scene2.png" id="background-normal">
+            </div>
+            <div class="container-bottom">
+                <select id="color-input" multiple>
+                    <option value="plan">Plan</option>
+                    <option value="boite">Boite</option>
+                    <option value="pyramide">Pyramide</option>
+                    <option value="boule1">Boule1</option>
+                    <option value="boule2">Boule2</option>
+                    <option value="cylindre">Cylindre</option>
+                </select>
+                <button id="button-search">Rechercher</button>
+            </div>
         </div>
-        <input id="color-input" placeholder="Entrer une forme">
-        <button id="button-search">Rechercher</button>
         <script src="script.js"></script>
     </body>
 </html>
